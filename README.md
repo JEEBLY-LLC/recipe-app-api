@@ -11,4 +11,6 @@ docker-compose run --rm app sh -c "django-admin startproject app ." // to create
 
 docker-compose up // to start the service
 
+docker-compose run --rm app sh -c "python manage.py test" // test run
+
 http://127.0.0.1:8000
